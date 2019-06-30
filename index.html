@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html>
-<title>Loriella.com - Tech for authors</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image: url('images/endmatterBanner.jpg');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
 </style>
-<body>
+<body class="w3-content w3-black" style="max-width:1500px;">
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    Logo
+<!-- Header  -->
+<header class="w3-display-container w3-center">
+  <div class="mySlides w3-animate-opacity">
+    <img class="w3-image" src="images/endmatterBanner.jpg" alt="Image 1" style="min-width:500px" width="1500" height="1000">
+
   </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">Endmatter Updater</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">2 days left</p>
-  </div>
-  <div class="w3-display-bottomleft w3-padding-large">
-    <a href="https://www.loriella.com" target="_blank">loriella.com</a>
+
+</header>
+
+<!-- Clarity Section -->
+<div class="w3-padding-64 w3-light-grey">
+  <div class="w3-row-padding">
+    <div class="w3-col l4 m6">
+      <img class="w3-image w3-round-large w3-hide-small w3-grayscale" src="images/EndmatterUpdater.png" alt="App" width="335" height="471">
+    </div>
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>Endmatter Updater</b></h1>
+      <h1 class="w3-xxxlarge w3-text-red"><b>Change your ebooks?</b></h1>
+      <p><span class="w3-xlarge">Batch update EPUBS.</span> Need to change your books available page for dozens of ebooks?</p><p class="style3">
+        <br/>Need to change your bio to add your newsletter link but have so many books it seems impossible?</p><p class="style3">
+        <br/>For authors facing the daunting task of updating all of their digital books,
+        the updater batch processes an unlimited number of digital books in EPUB format.
+        All you need is the page to be inserted in a clean XHTML format and 
+        watch this application update dozens of books in seconds.</p>
+    </div>
   </div>
 </div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-xlarge">
+  <div class="w3-section">
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+</footer>
+
 
 </body>
 </html>
