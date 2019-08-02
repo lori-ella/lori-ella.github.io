@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="introduction" path="introduction.html"/>
+   <appContext helpID="requirements" path="requirements.html"/>
+   <appContext helpID="download" path="download.html"/>
+   <appContext helpID="unzip" path="unzip.html"/>
+   <appContext helpID="prepare_for_updating" path="prepare_for_updating.html"/>
+   <appContext helpID="convert_if_necessary" path="convert_if_necessary.html"/>
+   <appContext helpID="how_to_create_file_for_insertion"
+               path="how_to_create_file_for_insertion.html"/>
+   <appContext helpID="update_epub_files" path="update_epub_files.html"/>
+   <appContext helpID="troubleshooting" path="troubleshooting.html"/>
+</map>

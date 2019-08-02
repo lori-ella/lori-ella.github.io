@@ -1,0 +1,174 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="21.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="description" content="This section walks through how to run the Endmatter Updater application. 1. Where is the folder with old EPUBS? Place the EPUB files you want to change into one folder and note the location. Every ..." /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2019" /><meta name="DC.rights.owner" content="(C) Copyright 2019" /><meta name="DC.type" content="topic" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="update_epub_files" /><title>Update EPUB files</title><!--  Generated with Oxygen version 21.0, build number 2019022122.  --><meta name="wh-path2root" content="" /><meta name="wh-toc-id" content="update_epub_files-d62e70" /><link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="./oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic-page.css?buildId=2019022122" /><script type="text/javascript" src="./oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"><!----></script><script data-main="./oxygen-webhelp/app/topic-page.js" src="./oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/oxygen-red.css?buildId=2019022122" /></head>
+
+    <body id="update_epub_files" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="21.0">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="index.html"><span class="title">Endmatter Updater</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="introduction-d62e11-mi" data-tocid="introduction-d62e11" data-state="not-ready" class=" topicref " data-id="introduction"><span class="title"><a href="introduction.html">Introduction</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="download-d62e28-mi" data-tocid="download-d62e28" data-state="not-ready" class=" topicref " data-id="download"><span class="title"><a href="download.html">Download</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="prepare_for_updating-d62e45-mi" data-tocid="prepare_for_updating-d62e45" data-state="not-ready" class=" topicref " data-id="prepare_for_updating"><span class="title"><a href="prepare_for_updating.html">Prepare for updating</a></span></span></li><li role="menuitem"><span id="update_epub_files-d62e70-mi" data-tocid="update_epub_files-d62e70" data-state="leaf" class=" topicref " data-id="update_epub_files"><span class="title"><a href="update_epub_files.html">Update EPUB files</a></span></span></li><li role="menuitem"><span id="troubleshooting-d62e80-mi" data-tocid="troubleshooting-d62e80" data-state="leaf" class=" topicref " data-id="troubleshooting"><span class="title"><a href="troubleshooting.html">Troubleshooting</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="index.html"><span>Home</span></a></span></li><li class="active"><span class="topicref" data-id="update_epub_files"><span class="title"><a href="update_epub_files.html">Update EPUB files</a></span></span></li></ol></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader"></span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                    
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Update EPUB files</h1>
+    <div class="body">
+        <p class="p">This section walks through how to run the Endmatter Updater application.</p>
+        <div class="p">
+            <div class="fig imagemap" id="update_epub_files__imagemap_x1z_rzf_p3b"><img usemap="#d711e20" class="image" id="update_epub_files__image_z1w_gyf_p3b" src="Images/ApplicationDiagram.jpg" alt="Visual of Endmatter Updater Application" /><map name="d711e20" id="d711e20"><area href="#update_epub_files__section_ulb_z5f_p3b" alt="Section: Where is folder with old epubs?" title="Section: Where is folder with old epubs?" shape="circle" coords="24, 79, 17" /><area href="#update_epub_files__section_iv3_tyf_p3b" alt="Section: Where is the folder with old EPUBS?" title="Section: Where is the folder with old EPUBS?" shape="circle" coords="27, 207, 16" /><area href="#update_epub_files__section_zcj_5vf_p3b" alt="Section: Where will new endmatter be placed?" title="Section: Where will new endmatter be placed?" shape="circle" coords="120, 310, 17" /><area href="#update_epub_files__section_b5y_jzf_p3b" alt="Section: What is the title of the new page?" title="Section: What is the title of the new page?" shape="circle" coords="298, 66, 15" /><area href="#update_epub_files__section_d4j_lzf_p3b" alt="Section: Where should the new files go?" title="Section: Where should the new files go?" shape="circle" coords="400, 145, 17" /><area href="#update_epub_files__section_wjm_nzf_p3b" alt="Section: Start" title="Section: Start" shape="circle" coords="377, 306, 18" /></map></div>
+        </div>
+        <section class="section" id="update_epub_files__section_ulb_z5f_p3b"><h2 class="title sectiontitle">1. Where is the folder with old EPUBS?</h2>
+            
+            <div class="p">Place the EPUB files you want to change into one folder and note the location.<ul class="ul" id="update_epub_files__ol_lt2_34g_p3b">
+                    <li class="li">Every EPUB in the folder will be changed the same way.</li>
+                    <li class="li">Be sure each file is a correctly formatted EPUB. See <a class="xref" href="prepare_for_updating.html">Prepare for updating</a> if necessary.</li>
+                    <li class="li">Click on the "Select Epub Folder" button and select the location.</li>
+                </ul></div>
+        </section>
+        <section class="section" id="update_epub_files__section_iv3_tyf_p3b"><h2 class="title sectiontitle">2. Where is the XHTML file?</h2>
+            
+            <div class="p">After creating the file to be inserted into your EPUB files, click on the "Select
+                File" button and using the dialog box, find and select the file.<div class="note note note_note"><span class="note__title">Note:</span> If you need to
+                    create the file, see <a class="xref" href="how_to_create_file_for_insertion.html">How to create file for insertion</a>.</div></div>
+        </section>
+        <section class="section" id="update_epub_files__section_zcj_5vf_p3b"><h2 class="title sectiontitle">3. Where will new endmatter be placed?</h2>
+            
+            <p class="p">Will the new file replace an old one? </p>
+            <div class="p"><ul class="ul" id="update_epub_files__ul_vlf_r4g_p3b">
+                    <li class="li">If No, select the "Place at end of books" radio button.</li>
+                    <li class="li">If Yes, select the "Replace Chapter" radio button. <ol class="ol" id="update_epub_files__ul_udk_fpg_p3b">
+                            <li class="li">The "Title of Chapter to Replace" dialog box will become active.</li>
+                            <li class="li">Enter the name of the chapter to be replaced.<div class="note note note_note"><span class="note__title">Note:</span> The dialog box
+                                    contains an example chapter title "Other Books by". Highlight
+                                    and replace with your old chapter/page title.</div></li>
+                        </ol></li>
+                    
+                </ul> </div>
+        </section>
+        <section class="section" id="update_epub_files__section_b5y_jzf_p3b"><h2 class="title sectiontitle">4. What is the title of the new page?</h2>
+            
+            <p class="p">Enter the title of the new page that is to be inserted in your EPUBS. This title will
+                appear in the Table of Contents.</p>
+        </section>
+        <section class="section" id="update_epub_files__section_d4j_lzf_p3b"><h2 class="title sectiontitle">5. Where should new files go?</h2>
+            
+            <p class="p">This section sets how the application will treat the updated EPUB files. </p>
+            <div class="sectiondiv"><dfn class="term">Location</dfn>.<p class="p">The default setting will create a folder in the
+                    same directory as the application to place the updated files. The folder will
+                    have the name "New" plus the date/time. For example: "New-06-10-2019-164012."
+                    This will guard against overwriting files if the application is run more than
+                    once. You can change these settings to a name of your choosing. If the date/time
+                    is not needed, uncheck the box.</p></div>
+            <div class="sectiondiv"><dfn class="term">File Name</dfn>.<p class="p">Since the updated EPUBS will be placed into a new
+                    folder, there is no need to create a new name for the EPUBS. If the files will
+                    not be renamed, uncheck the "Rename new files with suffix" box. Sometimes a new
+                    name is helpful. For instance, if the new back matter is different depending on
+                    which retailer the book will go to, then changing the name may be preferable. To
+                    do that, check the box and add a suffix. The default setting will reuse the
+                    EPUB's file name while adding "_endmatter". For example, the default setting
+                    would rename "novel.epub" to "novel_endmatter.epub."</p></div>
+        </section>
+        <section class="section" id="update_epub_files__section_wjm_nzf_p3b"><h2 class="title sectiontitle">6. Start</h2>
+            
+            <p class="p">You're ready! Doublecheck your settings and select the "Start" button.</p>
+        </section>
+        <section class="section" id="update_epub_files__section_pb2_jtg_p3b"><h2 class="title sectiontitle">Next Step</h2>
+            
+            <p class="p">Be sure to check that files were updated as you expected.</p>
+            <p class="p">If necessary, see <a class="xref" href="troubleshooting.html">Troubleshooting</a>.</p>
+        </section>
+    </div>
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                        <nav role="navigation" id="wh_topic_toc" class="col-lg-2 d-none d-lg-block navbar d-print-none"> 
+                            <div class=" wh_topic_toc "><div class="wh_topic_label">On this page</div><ul><li class="section-item"><div class="section-title"><a href="#update_epub_files__section_ulb_z5f_p3b" data-tocid="update_epub_files__section_ulb_z5f_p3b">1. Where is the folder with old EPUBS?</a></div></li><li class="section-item"><div class="section-title"><a href="#update_epub_files__section_iv3_tyf_p3b" data-tocid="update_epub_files__section_iv3_tyf_p3b">2. Where is the XHTML file?</a></div></li><li class="section-item"><div class="section-title"><a href="#update_epub_files__section_zcj_5vf_p3b" data-tocid="update_epub_files__section_zcj_5vf_p3b">3. Where will new endmatter be placed?</a></div></li><li class="section-item"><div class="section-title"><a href="#update_epub_files__section_b5y_jzf_p3b" data-tocid="update_epub_files__section_b5y_jzf_p3b">4. What is the title of the new page?</a></div></li><li class="section-item"><div class="section-title"><a href="#update_epub_files__section_d4j_lzf_p3b" data-tocid="update_epub_files__section_d4j_lzf_p3b">5. Where should new files go?</a></div></li><li class="section-item"><div class="section-title"><a href="#update_epub_files__section_wjm_nzf_p3b" data-tocid="update_epub_files__section_wjm_nzf_p3b">6. Start</a></div></li><li class="section-item"><div class="section-title"><a href="#update_epub_files__section_pb2_jtg_p3b" data-tocid="update_epub_files__section_pb2_jtg_p3b">Next Step</a></div></li></ul></div>
+                        </nav>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="21.0">
+  <div class=" footer-container mx-auto ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>
